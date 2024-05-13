@@ -284,8 +284,11 @@ function App() {
 
   return (
     <div className="dis">
+    <div className="delay-warning">
+      WARNING: Your screen may pause for a moment, as it takes time to load huge ship data.
+    </div>
       {loading ? (
-        <Loader />
+        <></>
       ) : (
         <>
           <div className="selectors">
