@@ -109,7 +109,10 @@
 }
 
 .delay-warning{
-  margin-top: 1rem;
+  display: flex;
+  margin-top: 3rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .error-box p {
